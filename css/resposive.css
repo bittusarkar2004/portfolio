@@ -1,0 +1,471 @@
+@media only screen and (max-width: 1400px) {
+
+    .about-me-section .bottom-part .middle-content .top-content .top {
+        width: 96%;
+    }
+
+    .about-me-section .bottom-part .middle-content .top-content .bottom {
+        width: 90%;
+      }
+
+    .about-me-section .bottom-part .left-img-box {
+        width: 266px;
+    }
+
+    .about-me-section .bottom-part .right-content {
+        width: 87%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .banner-section .right-block {
+        padding-left: 30px;
+    }
+
+    .banner-section .right-block h1 {
+        width: 78%;
+    }
+
+    .banner-section .right-block p {
+        font-size: 16px;
+    } 
+
+    .about-me-section .bottom-part .middle-content {
+        padding-left: 70px;
+        width: 100%;
+    }
+
+    .about-me-section .bottom-part .middle-content .bottom-content {
+        width: 93%;
+    }
+
+    .about-me-section .bottom-part .right-content {
+        width: 100%;
+    }
+
+    header .right-block .nav-block nav ul {
+        gap: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    header .right-block .nav-block{
+        display: none;
+    }
+
+    header .right-block .menu {
+        display: block;
+    }
+
+    .banner-section .left-block {
+        width: 57%;
+        margin: 0 auto;
+    }
+
+    /* .banner-section .row{
+        flex-direction: column-reverse !important;
+    } */
+
+    .banner-section .right-block {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .banner-section .right-block h1 {
+        margin: 0 auto;
+    }
+
+    .banner-section .right-block p {
+        margin: 0 auto;
+    }
+
+    .banner-section .right-block .button {
+        margin: 0 auto;
+    }
+
+    .about-me-section .bottom-part .right-content {
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .skills-section .bottom-part .bar .info span {
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 14px;
+        color: #fff;
+        line-height: 1.3;
+        text-transform: capitalize;
+        opacity: 0;
+        animation: showText 0.5s 1s linear forwards;
+        padding-bottom: 11px;
+        margin: 0;
+      }
+
+    .my-designs-section .bottom-section .box {
+        height: 300px;                            
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .skills-section .bottom-part .bar{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skills-section .bottom-part .bar .progress-line {
+        width: 100%;
+    }
+
+    .about-me-section .bottom-part .left-img-box {
+       margin: 0 auto;
+    }
+
+    .about-me-section .middle-content .top-content .top span{
+        display: none;
+    }
+
+    .about-me-section .middle-content .top-content .top p{
+        display: flex;
+    }
+
+    .about-me-section .middle-content .top-content .top p span{
+        display: block !important;
+        font-family: var(--primary-font);
+        font-size: clamp(0.875rem, 0.8519rem + 0.1235vw, 1rem) !important;
+        color: #fff !important;
+        font-weight: 400 !important;
+        line-height: 1.6 !important;
+    }
+
+    header .left-block .logo-block {
+        max-width: 190px;
+    }
+
+    header .right-block .button {
+        padding: 13px 9px 13px 15px;
+    }
+
+    header .right-block .button span {
+        font-size: 18px;
+    }
+
+    header .right-block .button .br {
+        width: 21px;
+        height: 21px;
+    }
+
+    header .right-block .button i {
+        font-size: 10px;
+    }
+
+    .banner-section .right-block .button {
+        padding: 10px 19px 10px 19px;
+    }
+
+    .banner-section .right-block .button span {
+        font-size: 16px;
+    }
+
+    .banner-section .right-block .button .br {
+        width: 21px;
+        height: 21px;
+    }
+
+    .banner-section .right-block .button i {
+        font-size: 10px;
+    }
+
+    .my-designs-section .bottom-section .button {
+        padding: 10px 19px 10px 19px;
+    }
+
+    .my-designs-section .bottom-section .button span {
+        font-size: 16px;
+    }
+
+    .my-designs-section .bottom-section .button .br {
+        width: 21px;
+        height: 21px;
+    }
+
+    .my-designs-section .bottom-section .button i {
+        font-size: 10px;
+    }
+
+    .contact-section .left-block form .submit-btn {
+        padding: 13px 15px 13px 25px;
+    }
+
+    .about-me-section .bottom-part .middle-content {
+        padding-left: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-me-section .bottom-part .right-content {
+        width: 100%;
+    }
+
+    .about-me-section .bottom-part .middle-content .top-content .top span{
+        display: none;
+    }
+
+    .about-me-section .bottom-part .middle-content .top-content .top .m {
+        display: none;
+    }
+
+    .about-me-section .bottom-part .middle-content .top-content .top .dd-n {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        font-size: 19px;
+        color: #81dce1;
+    }
+
+    .about-me-section .bottom-part .middle-content .top-content .bottom {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: -11px;
+    }
+
+    .about-me-section .bottom-part .middle-content .top-content .top {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-me-section .bottom-part .middle-content .top-content::after {
+        width: 100%;
+    }
+
+    .about-me-section .bottom-part .middle-content .bottom-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-me-section .bottom-part .right-content {
+        padding-top: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .about-me-section .bottom-part .left-img-box {
+        width: 57%;
+    }
+
+    .banner-section .left-block {
+        width: 68%;
+    }
+
+    .banner-section .right-block h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .banner-section .right-block p {
+        font-size: 15px;
+        width: 78%;
+    }
+
+    .contact-section .left-block form .textarea {
+        height: 150px;
+    }
+
+    .banner-section .right-block {
+        padding-left: 0;
+    }
+
+    .about-me-section .bottom-part .right-content {
+       padding-left: 0;
+       width: 88%;
+    }
+
+}
+
+@media only screen and (max-width: 773px) {
+    header .right-block .button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    header .right-block .button {
+       display: none;
+    }
+
+    header .d-flex{
+        justify-content: space-around !important;
+    }
+
+    .banner-section .left-block {
+        width: 90%;
+    }
+
+    .banner-section .right-block h1 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .banner-section .right-block p {
+        font-size: 14px;
+        width: 95%;
+        padding-bottom: 20px;
+    }
+
+    .banner-section {
+        padding-top: 20px;
+        padding-bottom: 65px;
+    }
+
+    .primary-heading {
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+
+    .skills-section .bottom-part .bar {
+        width: 100%;
+    }
+
+    .about-me-section .bottom-part .left-img-box {
+        width: 86%;
+    }
+
+    .about-me-section .bottom-part .middle-content {
+        width: 100%;
+    }
+
+    .about-me-section {
+        padding-bottom: 60px;
+        background-color: transparent;
+    }
+
+    .my-designs-section .bottom-section .button {
+        margin-top: 8px;
+    }
+
+    .my-designs-section {
+        padding-bottom: 60px;
+    }
+
+    .my-designs-section .bottom-section .button .br {
+        border: 1.2px solid #ffffff;
+    }
+
+    .about-me-section .bottom-part .right-content p {
+        font-size: 17px;
+    }
+
+    .skills-section {
+        padding-bottom: 65px;
+    }
+
+    header .left-block .logo-block {
+        max-width: 180px;
+    }
+
+    header {
+        padding: 15px 0 20px 0;
+    }
+
+    .contact-section .footer-top-icons .icon-block {
+        justify-content: center;
+    }
+    .contact-section .right-block .bottom-part {
+        padding-bottom: 18px;
+    }
+
+    .banner-section .right-block .button .br {
+        border: 1.5px solid #ffffff;
+    }
+
+    .contact-section .right-block .bottom-part .icon-box {
+        background-color: #262d61;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 13px;
+        padding: 25px 0;
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 100%;
+    }
+
+    .contact-section .right-block .bottom-part .icon-box .icon {
+        width: 58px;
+        height: 58px;
+    }
+
+    .contact-section .footer-top-icons .icon-block .content-wrapper .icon {
+        width: 58px;
+        height: 58px;
+    }
+
+    footer h5 {
+        font-size: 12px;
+    }
+
+    .contact-section .left-block form .submit-btn {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .banner-section .right-block .button .br {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #ffffff;
+    }
+
+    .banner-section .right-block .button i {
+        font-size: 11px;
+    }
+
+    .my-designs-section .bottom-section .button .br {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #ffffff;
+    }
+
+    .my-designs-section .bottom-section .button i {
+        font-size: 11px;
+    }
+
+    .skills-section .bottom-part .bar .info span {
+        font-size: 15px;
+    }
+
+    .contact-section .right-block .bottom-part .icon-box .right-text a {
+        font-size: 14px !important;
+    }
+
+}
+
+@media only screen and (max-width: 301px){
+    .banner-section .left-block {
+        width: 95%;
+    }
+
+    .banner-section .right-block .button .br {
+        width: 23px;
+        height: 23px;
+        border: 1.5px solid #ffffff;
+    }
+    .my-designs-section .bottom-section .button .br {
+        width: 23px;
+        height: 23px;
+        border: 1.5px solid #ffffff;
+    }
+
+    .contact-section .right-block .bottom-part .icon-box .right-text a {
+        font-size: 12px !important;
+    }
+}
